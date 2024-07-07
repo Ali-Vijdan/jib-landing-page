@@ -1401,16 +1401,6 @@ body,
 
 /* hero section starts here */
 
-.hero-section {
-  background: url(../assets/images/hero-bg.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% auto;
-  min-height: 1209px;
-  padding-top: 90px;
-  position: relative;
-}
-
 .hero-section::before {
   content: "";
   width: 265px;
@@ -1612,20 +1602,8 @@ body,
   color: rgb(19 185 146 / var(--tw-text-opacity));
 }
 
-@media (max-width: 1500px) {
-  .max-\[1500px\]\:overflow-hidden {
-    overflow: hidden;
-  }
-}
-
 @media (max-width: 1450px) {
   .max-\[1450px\]\:overflow-hidden {
-    overflow: hidden;
-  }
-}
-
-@media (max-width: 1440px) {
-  .max-\[1440px\]\:overflow-hidden {
     overflow: hidden;
   }
 }
@@ -1834,11 +1812,6 @@ body,
     border-radius: 12px;
   }
 
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1975,14 +1948,14 @@ body,
     padding: 2.5rem;
   }
 
-  .lg\:py-\[124px\] {
-    padding-top: 124px;
-    padding-bottom: 124px;
-  }
-
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .lg\:py-\[124px\] {
+    padding-top: 124px;
+    padding-bottom: 124px;
   }
 
   .lg\:pl-\[30px\] {

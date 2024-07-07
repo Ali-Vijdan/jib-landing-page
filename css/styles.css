@@ -2024,3 +2024,15 @@ body,
     padding-left: 100px;
   }
 }
+
+@media (min-width: 1457px) {
+  .min-\[1457px\]\:ml-auto {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1458px) {
+  .min-\[1458px\]\:ml-auto {
+    margin-left: auto;
+  }
+}

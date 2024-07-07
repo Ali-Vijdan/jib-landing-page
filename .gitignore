@@ -13,9 +13,6 @@ Thumbs.db
 # Environment variables
 .env
 
-# Tailwind CSS build artifacts
-css/styles.css
-
 # Miscellaneous
 .idea/
 .vscode/

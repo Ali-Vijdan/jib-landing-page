@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JIB</title>
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Preload background image -->
+    <link rel="preload" href="./assets/images/hero-bg.webp" as="image" />
+
+    <!-- font family -->
+    <link
+      rel="preload"
+      href="./assets/fonts/SF-Pro-Text-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./assets/fonts/SF-Pro-Text-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./assets/fonts/SF-Pro-Text-Semibold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./assets/fonts/SF-Pro-Text-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar starts here -->
+    <nav class="bg-[#18191c] py-5 px-4">
+      <div
+        class="max-w-[1240px] w-full mx-auto flex justify-between items-center"
+      >
+        <a href="">
+          <img class="w-[44px]" src="./assets/images/logo.svg" alt="" />
+        </a>
+        <div class="flex items-center gap-3 md:gap-6">
+          <a href="#" class="text-[#EEEEEE] text-[14px] font-normal"> Login </a>
+          <button
+            class="flex justify-center items-center bg-[#5AEECB] text-[#23252B] text-[14px] font-semibold w-[78px] h-[36px] rounded-[8px] mx-auto"
+          >
+            Sign Up
+          </button>
+          <button class="md:hidden">
+            <img src="./assets/icons/bars.svg" alt="menu" />
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+    <!-- hero section starts here -->
+    <section class="bg-[#181a1c]">
+      <div
+        class="hero-section max-w-[1440px] w-full mx-auto max-[1450px]:overflow-hidden"
+      >
+        <div class="px-4 lg:px-0">
+          <h1
+            class="max-w-[996px] w-full text-center mx-auto text-[#5AEECB] text-[30px] md:text-[56px] leading-[38px] md:leading-[64px] tracking-[-2px] font-semibold mb-5 md:mb-[34px]"
+          >
+            Jib, <span class="text-[#FFFFFF]">AI Chat Control</span> for all
+            your apps!
+          </h1>
+          <p
+            class="max-w-[636px] w-full text-[#F3F5F7] text-center mx-auto text-[14px] md:text-[16px] font-medium mb-[40px] leading-5 md:leading-[38px]"
+          >
+            Jib AI follows up with every one of your lost calls, and responds to
+            all incoming leads from phone calls, sms, Facebook messenger and
+            more.
+          </p>
+          <button
+            class="flex justify-center items-center bg-[#5AEECB] text-[#23252B] text-[14px] md:text-[18px] font-semibold w-[164px] md:w-[212px] h-[44px] md:h-14 rounded-[8px] mx-auto"
+          >
+            Use Jib for just $1
+          </button>
+        </div>
+        <img
+          class="md:hidden w-full pl-4 md:pl-0 mt-[52px]"
+          width="400px"
+          height="auto"
+          src="./assets/images/hero-sm.webp"
+          alt=""
+          loading="lazy"
+        />
+      </div>
+    </section>
+    <!-- hero section ends here -->
+
+    <!-- features section starts here -->
+    <section class="pt-14 md:pt-[100px] pb-[60px]">
+      <div class="px-4">
+        <h1
+          class="text-[#23252B] text-center text-[24px] md:text-[36px] leading-[34px] md:leading-[44px] font-bold mb-4 md:mb-6"
+        >
+          Jib Converts Lost Calls, and Leads Into
+          <span class="text-[#13B992]">Revenue</span>
+        </h1>
+        <p
+          class="max-w-[498px] w-full text-[#6C7486] text-center mx-auto text-[14px] md:text-[16px] font-medium leading-5 md:leading-6"
+        >
+          Jib converts missed calls and lost leads into revenue, enhancing
+          business efficiency and profitability.
+        </p>
+      </div>
+      <div
+        class="max-w-[1240px] md:max-w-full w-full mx-auto pl-0 lg:pl-[30px] xl:pl-[60px] min-[1400px]:pl-[100px]"
+      >
+        <div
+          class="pt-14 lg:pt-[100px] flex items-center gap-8 md:gap-20 flex-col lg:flex-row"
+        >
+          <div class="min-[1400px]:ml-auto lg:w-[538px] px-4">
+            <div class="mb-6 md:mb-10">
+              <span
+                class="block text-[18px] md:text-[20px] text-[#13B992] font-bold leading-7 mb:3 md:mb-6"
+                >Facebook Ads</span
+              >
+              <h1
+                class="max-w-[512px] w-full text-[24px] min-[1140px]:text-[36px] text-[#23252B] font-bold leading-[34px] min-[1140px]:leading-[44px] mb-4"
+              >
+                Enhance your Business with Facebook Ads Features
+              </h1>
+              <p
+                class="max-w-[512px] w-full text-[14px] md:text-[16px] text-[#6C7486] font-medium leading-6"
+              >
+                Enhance your business with AI Sequence features for improved
+                data analysis, automation, and decision-making.
+              </p>
+            </div>
+            <ul class="circle-check-list">
+              <li class="mb-4 md:mb-5 text-[14px] md:text-[18px] font-semibold">
+                Helping you manage Facebook account.
+              </li>
+              <li class="mb-4 md:mb-5 text-[14px] md:text-[18px] font-semibold">
+                Can manage message from Facebook account.
+              </li>
+              <li class="mb-0 text-[14px] md:text-[18px] font-semibold">
+                Helping you answer customer questions.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="min-[1400px]:max-w-[740px] max-w-[550px] w-full ml-auto max-md:pl-8"
+          >
+            <img
+              src="./assets/images/facebook-ads.webp"
+              width="740px"
+              height="auto"
+              alt="facebook-ads"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div
+          class="pt-14 lg:pt-[92px] flex items-center gap-8 md:gap-20 flex-col lg:flex-row"
+        >
+          <div class="min-[1400px]:ml-auto lg:w-[538px] px-4">
+            <div class="mb-6 md:mb-10">
+              <span
+                class="block text-[18px] md:text-[20px] text-[#13B992] font-bold leading-7 mb:3 md:mb-6"
+                >Advanced Call and SMS</span
+              >
+              <h1
+                class="max-w-[512px] w-full text-[24px] min-[1140px]:text-[36px] text-[#23252B] font-bold leading-[34px] min-[1140px]:leading-[44px] mb-4"
+              >
+                Enhance your Business with Advanced Call and SMS Features
+              </h1>
+              <p
+                class="max-w-[512px] w-full text-[14px] md:text-[16px] text-[#6C7486] font-medium leading-6"
+              >
+                Enhance communication with call screening, voicemail
+                transcription, and scheduled messaging, providing improved
+                convenience, security, and efficiency for users.
+              </p>
+            </div>
+            <ul class="circle-check-list">
+              <li class="mb-4 md:mb-5 text-[14px] md:text-[18px] font-semibold">
+                Call Screening and Blocking.
+              </li>
+              <li class="mb-4 md:mb-5 text-[14px] md:text-[18px] font-semibold">
+                Voicemail Transcription.
+              </li>
+              <li class="mb-0 text-[14px] md:text-[18px] font-semibold">
+                Manage message from another channels.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="min-[1400px]:max-w-[740px] max-w-[550px] w-full ml-auto max-md:pl-8"
+          >
+            <img
+              src="./assets/images/call-and-sms.webp"
+              width="740px"
+              height="auto"
+              alt="call-and-sms"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- features section ends here -->
+
+    <!-- customers sections starts here -->
+    <section
+      class="customers-section bg-[#F3F5F7] py-14 md:pt-[100px] md:pb-[86px] px-4"
+    >
+      <div class="mb-16">
+        <h1
+          class="max-w-[556px] w-full mx-auto text-[#23252B] text-center text-[24px] md:text-[36px] leading-[34px] md:leading-[44px] font-bold mb-3 md:mb-6"
+        >
+          <span class="text-[#13B992]">Jib AI</span>
+          Talks to your Customers on All Channels
+        </h1>
+        <p
+          class="max-w-[604px] w-full text-[#6C7486] text-center mx-auto text-[14px] md:text-[16px] font-medium"
+        >
+          Explore our diverse range of innovative features designed to enhance
+          your business’s productivity and efficiency.
+        </p>
+      </div>
+      <div class="max-w-[903px] w-full mx-auto">
+        <img
+          class="w-full h-auto max-md:hidden"
+          src="./assets/images/customers.webp"
+          alt="customers"
+          loading="lazy"
+        />
+        <img
+          class="max-w-[275px] sm:max-w-[400px] mx-auto w-full h-auto md:hidden"
+          src="./assets/images/customers-sm.webp"
+          alt="customers"
+          loading="lazy"
+        />
+      </div>
+    </section>
+    <!-- customers sections ends here -->
+
+    <!-- About jib section starts here -->
+    <section class="pt-14 md:pt-[100px] pb-8 md:pb-20 px-4">
+      <div class="md:mb-4">
+        <h1
+          class="text-[#23252B] text-center text-[24px] md:text-[36px] leading-[34px] md:leading-[44px] font-bold mb-3 md:mb-6"
+        >
+          Learn More About
+          <span class="text-[#13B992]">Jib Feature</span>
+        </h1>
+        <p
+          class="max-w-[498px] w-full text-[#6C7486] text-center mx-auto text-[14px] md:text-[16px] font-medium mb-8 md:mb-10"
+        >
+          Discover how Jib features can optimize your workflow and boost your
+          business efficiency.
+        </p>
+        <button
+          class="flex justify-center items-center bg-[#5AEECB] text-[#23252B] text-[14px] font-semibold w-[140px] h-[36px] rounded-[8px] mx-auto"
+        >
+          Get Started
+        </button>
+      </div>
+      <div>
+        <div
+          class="flex justify-between items-center gap-16 max-w-[1028px] w-full mx-auto flex-col lg:flex-row py-14 md:py-[60px]"
+        >
+          <div
+            class="flex flex-col items-start gap-8 md:gap-10 max-lg:max-w-[506px] w-full"
+          >
+            <img
+              class="w-[52px] h-[52px]"
+              src="./assets/icons/ai-1.svg"
+              alt=""
+            />
+            <div class="max-w-[400px]">
+              <h2
+                class="text-[24px] md:text-[32px] font-semibold leading-[34px] md:leading-10 mb-4"
+              >
+                Jib AI Converts Bookings and Syncs with your Calendars
+              </h2>
+              <p class="text-[14px] md:text-[16px] text-[#6C7486] font-medium">
+                Explore our diverse range of innovative features designed to
+                enhance your business productivity and efficiency.
+              </p>
+            </div>
+            <a
+              href=""
+              class="flex items-center text-[14px] md:text-[16px] text-[#13B992] font-semibold leading-5 underline"
+            >
+              Discover Feature
+              <img src="./assets/icons/Chev-right.svg" alt=">" />
+            </a>
+          </div>
+          <div class="max-w-[540px] w-full">
+            <img
+              src="./assets/images/ai-img-1.webp"
+              width="540px"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div
+          class="flex justify-between items-center gap-16 max-w-[1028px] w-full mx-auto flex-col lg:flex-row py-14 md:py-[60px]"
+        >
+          <div class="max-w-[540px] w-full order-2 lg:order-1">
+            <img
+              src="./assets/images/ai-img-2.webp"
+              width="540px"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div
+            class="flex flex-col items-start gap-8 md:gap-10 order-1 lg:order-2 max-lg:max-w-[506px] w-full"
+          >
+            <img
+              class="w-[52px] h-[52px]"
+              src="./assets/icons/ai-2.svg"
+              alt=""
+            />
+            <div class="max-w-[400px]">
+              <h2
+                class="text-[24px] md:text-[32px] font-semibold leading-[34px] md:leading-10 mb-4"
+              >
+                Jib AI Converts Bookings and Syncs with your Calendars
+              </h2>
+              <p class="text-[14px] md:text-[16px] text-[#6C7486] font-medium">
+                Explore our diverse range of innovative features designed to
+                enhance your business productivity and efficiency.
+              </p>
+            </div>
+            <a
+              href=""
+              class="flex items-center text-[14px] md:text-[16px] text-[#13B992] font-semibold leading-5 underline"
+            >
+              Discover Feature
+              <img src="./assets/icons/Chev-right.svg" alt=">" />
+            </a>
+          </div>
+        </div>
+        <div
+          class="flex justify-between items-center gap-16 max-w-[1028px] w-full mx-auto flex-col lg:flex-row py-14 md:py-[60px]"
+        >
+          <div
+            class="flex flex-col items-start gap-8 md:gap-10 max-lg:max-w-[506px] w-full"
+          >
+            <img
+              class="w-[52px] h-[52px]"
+              src="./assets/icons/ai-3.svg"
+              alt=""
+            />
+            <div class="max-w-[400px]">
+              <h2
+                class="text-[24px] md:text-[32px] font-semibold leading-[34px] md:leading-10 mb-4"
+              >
+                Jib AI Converts Bookings and Syncs with your Calendars
+              </h2>
+              <p class="text-[14px] md:text-[16px] text-[#6C7486] font-medium">
+                Explore our diverse range of innovative features designed to
+                enhance your business productivity and efficiency.
+              </p>
+            </div>
+            <a
+              href=""
+              class="flex items-center text-[14px] md:text-[16px] text-[#13B992] font-semibold leading-5 underline"
+            >
+              Discover Feature
+              <img src="./assets/icons/Chev-right.svg" alt=">" />
+            </a>
+          </div>
+          <div class="max-w-[540px] w-full">
+            <img
+              src="./assets/images/ai-img-3.webp"
+              width="540px"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About jib section ends here -->
+
+    <!-- pricing section starts here -->
+    <section
+      class="bg-[#18191C] py-[54px] md:py-[70px] lg:py-[124px] px-4 md:px-8"
+    >
+      <div
+        class="max-w-[1050px] w-full mx-auto flex items-center bg-[#FFFFFF] rounded-[16px] flex-col lg:flex-row"
+      >
+        <div
+          class="lg:max-w-[534px] w-full flex flex-col justify-center items-center border-0 border-b lg:border-r border-solid border-[#E6E9EF] py-6 md:py-9 max-md:px-3"
+        >
+          <img
+            class="w-[52px] h-[52px] mb-3"
+            src="./assets/icons/pricing-user-avatar.svg"
+            alt=""
+          />
+          <h1
+            class="text-[56px] text-[#111827F5] text-center font-semibold leading-[66px] mb-2"
+          >
+            <span class="max-md:hidden">$1/month +</span> $0.01
+          </h1>
+          <span class="text-[18px] text-[#6C7486] leading-7 text-center"
+            >cost per spin</span
+          >
+          <p
+            class="max-w-[490px] w-full mx-auto mt-8 mb-4 text-center text-[#23252B] text-[12px] md:text-[16px] font-medium leading-[18px] md:leading-6"
+          >
+            Each Jib hit costs a certain amount of spins. The number of spins is
+            determined by AI token usage, external systems/api usage,
+            sms/whatsapp/messaging costs, etc.. all in one
+          </p>
+          <button
+            class="flex justify-center items-center gap-1 bg-[#5AEECB] text-[#23252B] text-[14px] font-semibold w-[168px] h-[44px] rounded-[8px] mx-auto mb-4 md:mb-3"
+          >
+            Use Jib for just $1
+            <img src="./assets/icons/Chev-right-black.svg" alt="" />
+          </button>
+          <span
+            class="max-w-[380px] w-full mx-auto text-center text-[#6C7486] text-[10px] font-medium leading-4"
+          >
+            Each request made of Jib uses a different amount of spins,
+            determining on the complexity, length and number of external systems
+          </span>
+        </div>
+        <div class="flex-1 py-6 px-3 lg:p-10 max-lg:max-w-[534px] w-full">
+          <ul class="circle-check-list">
+            <li
+              class="mb-[10px] text-[14px] md:text-[16px] text-[#23252B] font-medium md:font-semibold leading-5 md:leading-6"
+            >
+              Call forwarding & AI analysis.
+            </li>
+            <li
+              class="mb-[10px] text-[14px] md:text-[16px] text-[#23252B] font-medium md:font-semibold leading-5 md:leading-6"
+            >
+              AI Sequences & Outbound messaging.
+            </li>
+            <li
+              class="mb-[10px] text-[14px] md:text-[16px] text-[#23252B] font-medium md:font-semibold leading-5 md:leading-6"
+            >
+              AI SMS conversations.
+            </li>
+            <li
+              class="mb-[10px] text-[14px] md:text-[16px] text-[#23252B] font-medium md:font-semibold leading-5 md:leading-6"
+            >
+              Advanced call attribution.
+            </li>
+            <li
+              class="mb-[10px] text-[14px] md:text-[16px] text-[#23252B] font-medium md:font-semibold leading-5 md:leading-6"
+            >
+              Google Calendar sync.
+            </li>
+            <li
+              class="mb-[10px] text-[14px] md:text-[16px] text-[#23252B] font-medium md:font-semibold leading-5 md:leading-6"
+            >
+              All Team Features, plus.
+            </li>
+            <li
+              class="mb-[10px] text-[14px] md:text-[16px] text-[#23252B] font-medium md:font-semibold leading-5 md:leading-6"
+            >
+              AI Facebook Conversations.
+            </li>
+            <li
+              class="mb-[10px] text-[14px] md:text-[16px] text-[#23252B] font-medium md:font-semibold leading-5 md:leading-6"
+            >
+              AI Instagram DM conversations.
+            </li>
+            <li
+              class="mb-[10px] text-[14px] md:text-[16px] text-[#23252B] font-medium md:font-semibold leading-5 md:leading-6"
+            >
+              AI contact form responders.
+            </li>
+            <li
+              class="text-[14px] md:text-[16px] text-[#23252B] font-medium md:font-semibold leading-5 md:leading-6"
+            >
+              Google & Outlook Calendar sync.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- pricing section ends here -->
+
+    <!-- other features section starts here -->
+    <section class="pt-14 pb-8 md:py-[100px] px-4">
+      <div class="max-w-[1160px] w-full mx-auto">
+        <div class="mb-6 md:mb-[60px]">
+          <h1
+            class="text-[#23252B] text-center text-[24px] md:text-[36px] leading-[34px] md:leading-[44px] font-bold mb-4 md:mb-6"
+          >
+            Other Feature
+          </h1>
+          <p
+            class="max-w-[498px] w-full text-[#6C7486] text-center mx-auto text-[14px] md:text-[16px] font-medium"
+          >
+            Other features include additional functionalities for enhanced user
+            experience and versatility.
+          </p>
+        </div>
+        <div class="max-w-[1160px] mx-auto">
+          <ul
+            class="scrollbar-hidden w-full flex items-center gap-4 overflow-auto"
+            id="tabs"
+          >
+            <li>
+              <a
+                href="#"
+                class="tab-link bg-white flex items-center gap-[6px] sm:gap-3 border border-[#E6E9EF] rounded-[8px] md:rounded-[12px] pl-2 pr-3 sm:px-3 py-3 sm:py-5 w-[112px] sm:w-[278px] active-tab"
+                data-tab="tab1"
+              >
+                <img src="./assets/icons/Chart.svg" alt="" />
+                <div>
+                  <h4
+                    class="text-[16px] text-[#23252B] font-semibold leading-6"
+                  >
+                    Stats
+                  </h4>
+                  <p
+                    class="max-sm:hidden text-[12px] text-[#23252B] font-normal leading-[18px]"
+                  >
+                    Stats shows a growth charts.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="tab-link bg-white flex items-center gap-[6px] sm:gap-3 border border-[#E6E9EF] rounded-[8px] md:rounded-[12px] pl-2 pr-3 sm:px-3 py-3 sm:py-5 w-[112px] sm:w-[278px]"
+                data-tab="tab2"
+              >
+                <img src="./assets/icons/Prompt.svg" alt="" />
+                <div>
+                  <h4
+                    class="text-[16px] text-[#23252B] font-semibold leading-6"
+                  >
+                    Context <span class="max-sm:hidden">Feature</span>
+                  </h4>
+                  <p
+                    class="max-sm:hidden text-[12px] text-[#23252B] font-normal leading-[18px]"
+                  >
+                    Helps you answer questions.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="tab-link bg-white flex items-center gap-[6px] sm:gap-3 border border-[#E6E9EF] rounded-[8px] md:rounded-[12px] pl-2 pr-3 sm:px-3 py-3 sm:py-5 w-[112px] sm:w-[278px]"
+                data-tab="tab3"
+              >
+                <img src="./assets/icons/Users.svg" alt="" />
+                <div>
+                  <h4
+                    class="text-[16px] text-[#23252B] font-semibold leading-6"
+                  >
+                    Users <span class="max-sm:hidden">Feature</span>
+                  </h4>
+                  <p
+                    class="max-sm:hidden text-[12px] text-[#23252B] font-normal leading-[18px]"
+                  >
+                    Manage your staff and techs.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="tab-link bg-white flex items-center gap-[6px] sm:gap-3 border border-[#E6E9EF] rounded-[8px] md:rounded-[12px] pl-2 pr-3 sm:px-3 py-3 sm:py-5 w-[112px] sm:w-[278px]"
+                data-tab="tab4"
+              >
+                <img src="./assets/icons/Calendar.svg" alt="" />
+                <div>
+                  <h4
+                    class="text-[16px] text-[#23252B] font-semibold leading-6"
+                  >
+                    Event <span class="max-sm:hidden">Type</span>
+                  </h4>
+                  <p
+                    class="max-sm:hidden text-[12px] text-[#23252B] font-normal leading-[18px]"
+                  >
+                    You can make a appointment.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <div class="pt-8">
+            <div id="tab1" class="tab-content active">
+              <img
+                class="w-full"
+                width="100%"
+                src="./assets/images/states.webp"
+                alt="states"
+                loading="lazy"
+              />
+            </div>
+            <div id="tab2" class="tab-content">
+              <h2 class="text-xl font-bold">Content for Tab 2</h2>
+            </div>
+            <div id="tab3" class="tab-content">
+              <h2 class="text-xl font-bold">Content for Tab 3</h2>
+            </div>
+            <div id="tab4" class="tab-content">
+              <h2 class="text-xl font-bold">Content for Tab 4</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- other features section ends here -->
+
+    <!-- FAQ section starts here -->
+    <section class="faqs-section py-14 md:py-20 px-4">
+      <h1
+        class="text-center text-[24px] md:text-[36px] text-[#23252B] font-bold leading-[34px] md:leading-[44px] mb-6 md:mb-11"
+      >
+        Frequently Asked Questions
+      </h1>
+      <div
+        class="max-w-[710px] w-full mx-auto bg-white rounded-[12px] overflow-hidden"
+      >
+        <div class="faq-item border-b border-[#E6E9EF] py-5 px-7">
+          <h2
+            class="accordion-button relative text-[14px] md:text-[16px] font-semibold leading-5 md:leading-6 cursor-pointer"
+            data-target="faq1"
+          >
+            What is a Jib AI block?
+          </h2>
+          <div id="faq1" class="accordion-content">
+            <p class="text-[12px] md:text-[16px] text-[#23252B] font-normal">
+              Jib defines a Jib AI block as either: An outbound/reply message
+              generated and sent from Jib AI, or one minute (or part thereof)
+              block of a phone call, including call recording, AI-powered
+              transcription, auto-CRM update, and AI generated call summaries.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item border-b border-[#E6E9EF] py-5 px-7">
+          <h2
+            class="accordion-button relative text-[14px] md:text-[16px] font-semibold leading-5 md:leading-6 cursor-pointer"
+            data-target="faq2"
+          >
+            How much are extra Jib AI blocks?
+          </h2>
+          <div id="faq2" class="accordion-content">
+            <p class="text-[12px] md:text-[16px] text-[#23252B] font-normal">
+              Jib defines a Jib AI block as either: An outbound/reply message
+              generated and sent from Jib AI, or one minute (or part thereof)
+              block of a phone call, including call recording, AI-powered
+              transcription, auto-CRM update, and AI generated call summaries.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item border-b border-[#E6E9EF] py-5 px-7">
+          <h2
+            class="accordion-button relative text-[14px] md:text-[16px] font-semibold leading-5 md:leading-6 cursor-pointer"
+            data-target="faq3"
+          >
+            How do I schedule and book?
+          </h2>
+          <div id="faq3" class="accordion-content">
+            <p class="text-[12px] md:text-[16px] text-[#23252B] font-normal">
+              Jib defines a Jib AI block as either: An outbound/reply message
+              generated and sent from Jib AI, or one minute (or part thereof)
+              block of a phone call, including call recording, AI-powered
+              transcription, auto-CRM update, and AI generated call summaries.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item border-b border-[#E6E9EF] py-5 px-7">
+          <h2
+            class="accordion-button relative text-[14px] md:text-[16px] font-semibold leading-5 md:leading-6 cursor-pointer"
+            data-target="faq4"
+          >
+            How much are extra Jib AI blocks?
+          </h2>
+          <div id="faq4" class="accordion-content">
+            <p class="text-[12px] md:text-[16px] text-[#23252B] font-normal">
+              Jib defines a Jib AI block as either: An outbound/reply message
+              generated and sent from Jib AI, or one minute (or part thereof)
+              block of a phone call, including call recording, AI-powered
+              transcription, auto-CRM update, and AI generated call summaries.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item py-5 px-7">
+          <h2
+            class="accordion-button relative text-[14px] md:text-[16px] font-semibold leading-5 md:leading-6 cursor-pointer"
+            data-target="faq5"
+          >
+            How do I schedule and book?
+          </h2>
+          <div id="faq5" class="accordion-content">
+            <p class="text-[12px] md:text-[16px] text-[#23252B] font-normal">
+              Jib defines a Jib AI block as either: An outbound/reply message
+              generated and sent from Jib AI, or one minute (or part thereof)
+              block of a phone call, including call recording, AI-powered
+              transcription, auto-CRM update, and AI generated call summaries.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ section ends here -->
+
+    <!-- convert customers section starts here -->
+    <section class="convert-customers-section pt-[52px] px-4">
+      <div
+        class="max-w-[1200px] w-full mx-auto flex justify-between items-center flex-col lg:flex-row"
+      >
+        <div class="max-lg:flex max-lg:flex-col max-lg:items-center">
+          <h1
+            class="text-[24px] md:text-[32px] text-[#FFFFFF] font-bold leading-[34px] md:leading-[44px] mb-4 max-lg:text-center"
+          >
+            Convert More Customers.
+          </h1>
+          <p
+            class="max-w-[390px] w-full text-[14px] md:text-[16px] text-[#FFFFFF] font-medium leading-5 md:leading-6 max-lg:text-center"
+          >
+            Convert more customers in more channels using the AI-powered demand
+            capture platform - Jib.
+          </p>
+          <div
+            class="flex flex-wrap justify-center items-center gap-4 md:gap-5 mt-8 lg:mt-[60px] max-lg:mb-10"
+          >
+            <button
+              class="flex justify-center items-center bg-transparent border border-[#ffffff] text-[#ffffff] text-[14px] font-semibold w-[128px] h-[36px] rounded-[8px]"
+            >
+              Contact Sales
+            </button>
+            <button
+              class="flex justify-center items-center bg-[#5AEECB] text-[#23252B] text-[14px] font-semibold w-[170px] h-[36px] rounded-[8px]"
+            >
+              Get Started for Free
+            </button>
+          </div>
+        </div>
+        <img
+          class="xl:max-w-[647px] max-w-[540px] w-full object-cover"
+          src="./assets/images/convert-cus.webp"
+          alt=""
+          width="647px"
+          loading="lazy"
+        />
+      </div>
+    </section>
+    <!-- convert customers section ends here -->
+
+    <!-- footer starts here -->
+    <footer class="px-4">
+      <div class="max-w-[1216px] w-full mx-auto">
+        <div
+          class="flex justify-between pt-14 min-[1100px]:pt-20 pb-6 md:pb-10 flex-col min-[1100px]:flex-row"
+        >
+          <div class="max-[1100px]:pb-6">
+            <a href="" class="inline-block w-[52px] md:w-[69px] h-auto">
+              <img src="./assets/images/logo-dark.svg" alt="" />
+            </a>
+            <p
+              class="max-w-[206px] w-full text-[16px] text-[#23252B] font-normal leading-6 mt-3 md:mt-6"
+            >
+              Jib converts conversations into revenue.
+            </p>
+          </div>
+          <div class="flex gap-8 md:gap-20 max-md:flex-wrap">
+            <div class="order-3 md:order-1 max-md:w-[35%] max-[360px]:w-full">
+              <h6
+                class="text-[16px] md:text-[20px] text-[#23252B] font-semibold leading-6 md:leading-7 mb-3 md:mb-4"
+              >
+                Company
+              </h6>
+              <ul class="list-none">
+                <li class="mb-2">
+                  <a
+                    href=""
+                    class="text-[16px] md:text-[18px] text-[#23252B] font-normal leading-6 md:leading-7 hover:text-[#13B992] transition-all duration-300"
+                  >
+                    Pricing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-[16px] md:text-[18px] text-[#23252B] font-normal leading-6 md:leading-7 hover:text-[#13B992] transition-all duration-300"
+                  >
+                    Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="order-2 md:order-2 max-md:w-[55%] max-[360px]:w-full">
+              <h6
+                class="text-[16px] md:text-[20px] text-[#23252B] font-semibold leading-6 md:leading-7 mb-3 md:mb-4"
+              >
+                Legal
+              </h6>
+              <ul class="list-none">
+                <li class="mb-2">
+                  <a
+                    href=""
+                    class="text-[16px] md:text-[18px] text-[#23252B] font-normal leading-6 md:leading-7 hover:text-[#13B992] transition-all duration-300"
+                  >
+                    Terms of Service</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    href=""
+                    class="text-[16px] md:text-[18px] text-[#23252B] font-normal leading-6 md:leading-7 hover:text-[#13B992] transition-all duration-300"
+                  >
+                    Privacy</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    href=""
+                    class="text-[16px] md:text-[18px] text-[#23252B] font-normal leading-6 md:leading-7 hover:text-[#13B992] transition-all duration-300"
+                  >
+                    Cookie Policy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-[16px] md:text-[18px] text-[#23252B] font-normal leading-6 md:leading-7 hover:text-[#13B992] transition-all duration-300"
+                  >
+                    Acceptable Use Policy</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="order-1 md:order-3 max-md:w-full">
+              <button
+                class="flex justify-center items-center bg-[#23252B] text-[#FFFFFF] text-[14px] font-semibold w-[112px] h-[36px] rounded-[8px] mb-4"
+              >
+                Let’s Talk
+              </button>
+              <ul class="list-none">
+                <li class="mb-2">
+                  <a
+                    href=""
+                    class="flex items-center text-[14px] md:text-[18px] text-[#23252B] font-normal leading-5 md:leading-7 hover:text-[#13B992] transition-all duration-300"
+                  >
+                    <img
+                      class="mr-3"
+                      src="./assets/icons/Location.svg"
+                      alt=""
+                    />
+                    548 Market St, San Fransisco, CA 94104
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="mailto:hi@jib.com"
+                    class="flex items-center text-[14px] md:text-[18px] text-[#23252B] font-normal leading-5 md:leading-7 hover:text-[#13B992] transition-all duration-300"
+                  >
+                    <img class="mr-3" src="./assets/icons/Mail.svg" alt="" />
+                    hi@jib.com
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="tel:+14154498288"
+                    class="flex items-center text-[14px] md:text-[18px] text-[#23252B] font-normal leading-5 md:leading-7 hover:text-[#13B992] transition-all duration-300"
+                  >
+                    <img class="mr-3" src="./assets/icons/Call.svg" alt="" />
+                    +1 (415) 449 - 8288
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex justify-between sm:items-center py-6 border-t border-[#E6E9EF] flex-col sm:flex-row"
+        >
+          <div class="flex items-center gap-4 max-sm:mb-4">
+            <a
+              href=""
+              class="w-[34px] h-[34px] flex justify-center items-center bg-[#F1F2F3] rounded-[8px]"
+              ><img src="./assets/icons/Facebook.svg" alt=""
+            /></a>
+            <a
+              href=""
+              class="w-[34px] h-[34px] flex justify-center items-center bg-[#F1F2F3] rounded-[8px]"
+              ><img src="./assets/icons/Instagram.svg" alt=""
+            /></a>
+            <a
+              href=""
+              class="w-[34px] h-[34px] flex justify-center items-center bg-[#F1F2F3] rounded-[8px]"
+              ><img src="./assets/icons/Twitter.svg" alt=""
+            /></a>
+          </div>
+          <p class="text-[14px] text-[#23252B] font-normal leading-7">
+            Copyright © 2024 Jib. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <!-- js file link -->
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>

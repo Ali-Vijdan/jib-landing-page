@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Regular */
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../assets/fonts/SF-Pro-Text-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium */
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../assets/fonts/SF-Pro-Text-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Semibold */
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../assets/fonts/SF-Pro-Text-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../assets/fonts/SF-Pro-Text-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body,
+* {
+  font-family: "SF Pro Text", sans-serif !important;
+}
+
+/* hero section starts here */
+.hero-section {
+  background: url(../assets/images/hero-bg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  min-height: 1209px;
+  padding-top: 90px;
+  position: relative;
+}
+
+.hero-section::before {
+  content: "";
+  width: 265px;
+  height: 200px;
+  position: absolute;
+  background: url(../assets/images/hero-left.webp), no-repeat, center;
+  background-size: cover;
+  top: 150px;
+  left: -38px;
+  z-index: 11;
+}
+.hero-section::after {
+  content: "";
+  width: 202px;
+  height: 181px;
+  position: absolute;
+  background: url(../assets/images/hero-right.webp), no-repeat, center;
+  background-size: cover;
+  top: 150px;
+  right: -10px;
+  z-index: 11;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .hero-section::before {
+    width: 240px;
+    height: 180px;
+    top: 200px;
+  }
+  .hero-section::after {
+    width: 180px;
+    height: 160px;
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .hero-section::before {
+    display: none;
+    content: unset;
+  }
+  .hero-section::after {
+    display: none;
+    content: unset;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .hero-section {
+    background: none !important;
+    min-height: auto;
+    padding-top: 56px;
+  }
+}
+/* hero section ends here */
+
+/* features section starts here */
+.circle-check-list li {
+  position: relative;
+  padding-left: 40px;
+}
+.circle-check-list li::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url(../assets/icons/check-circle.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+@media screen and (max-width: 767.98px) {
+  .circle-check-list li {
+    padding-left: 30px;
+  }
+  .circle-check-list li::before {
+    width: 18px;
+    height: 18px;
+  }
+}
+/* features section ends here */
+
+/* customers section starts here */
+.customers-section {
+  background-image: url(../assets/images/grid-lines.webp);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+/* customers section ends here */
+/* other features section starts here */
+.tab-content {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.tab-content.active {
+  display: block;
+  opacity: 1;
+}
+.active-tab {
+  border-color: #13b992 !important;
+  background-color: #13b9921f !important;
+}
+/* other features section ends here */
+
+/* FAQ section starts here */
+.faqs-section {
+  background: linear-gradient(180deg, #fff 0%, #76e2c9 288.01%);
+}
+.accordion-content {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+.accordion-button::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url(../assets/icons/Chevron-down-black.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 11;
+  right: 0;
+}
+.accordion-button.active {
+  color: #13b992;
+}
+.accordion-button.active::after {
+  background-image: url(../assets/icons/Chevron-up-green.svg);
+}
+.accordion-content.active {
+  height: fit-content;
+  opacity: 1;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .accordion-content.active {
+    padding-top: 14px;
+  }
+}
+
+/* FAQ section ends here */
+
+/* convert customers section starts here */
+.convert-customers-section {
+  background: url(../assets/images/convert-customers.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1023.98px) {
+  .convert-customers-section {
+    background: url(../assets/images/convert-customers-sm.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+/* convert customers section ends here */
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}

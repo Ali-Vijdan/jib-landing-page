@@ -5,7 +5,7 @@ body,
 
 /* hero section starts here */
 .hero-section {
-  background: url(../assets/images/hero-bg.webp);
+  background: url(../assets/images/logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;

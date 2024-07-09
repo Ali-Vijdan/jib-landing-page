@@ -3,9 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jib AI follows up with every one of your lost calls, and responds to all incoming leads from phone calls, sms, Facebook messenger and more."
+    />
     <title>JIB</title>
-    <!-- CSS file link -->
-    <link rel="stylesheet" href="./css/styles.css" />
 
     <!-- Preload hero images -->
     <link rel="preload" href="./assets/images/hero-bg.webp" as="image" />
@@ -17,29 +19,70 @@
       href="./assets/fonts/SF-Pro-Text-Regular.woff2"
       as="font"
       type="font/woff2"
-      crossorigin="anonymous"
+      crossorigin
     />
     <link
       rel="preload"
       href="./assets/fonts/SF-Pro-Text-Medium.woff2"
       as="font"
       type="font/woff2"
-      crossorigin="anonymous"
+      crossorigin
     />
     <link
       rel="preload"
       href="./assets/fonts/SF-Pro-Text-Semibold.woff2"
       as="font"
       type="font/woff2"
-      crossorigin="anonymous"
+      crossorigin
     />
     <link
       rel="preload"
       href="./assets/fonts/SF-Pro-Text-Bold.woff2"
       as="font"
       type="font/woff2"
-      crossorigin="anonymous"
+      crossorigin
     />
+    <style>
+      /* Regular */
+      @font-face {
+        font-family: "SF Pro Text";
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: local("SF Pro Text"),
+          url("../assets/fonts/SF-Pro-Text-Regular.woff2") format("woff2");
+      }
+
+      /* Medium */
+      @font-face {
+        font-family: "SF Pro Text";
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+        src: local("SF Pro Text"),
+          url("../assets/fonts/SF-Pro-Text-Medium.woff2") format("woff2");
+      }
+
+      /* Semibold */
+      @font-face {
+        font-family: "SF Pro Text";
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+        src: local("SF Pro Text"),
+          url("../assets/fonts/SF-Pro-Text-Semibold.woff2") format("woff2");
+      }
+
+      /* Bold */
+      @font-face {
+        font-family: "SF Pro Text";
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+        src: local("SF Pro Text"),
+          url("../assets/fonts/SF-Pro-Text-Bold.woff2") format("woff2");
+      }
+    </style>
   </head>
   <body>
     <!-- navbar starts here -->
@@ -91,11 +134,11 @@
         </div>
         <img
           class="md:hidden w-full pl-4 md:pl-0 mt-[52px]"
-          width="700px"
-          height="auto"
+          width="700"
+          height="394"
           src="./assets/images/hero-sm.webp"
-          alt=""
-          loading="eager"
+          alt="Jib hero image"
+          fetchpriority="high"
         />
       </div>
     </section>
@@ -158,8 +201,8 @@
           >
             <img
               src="./assets/images/facebook-ads.webp"
-              width="740px"
-              height="auto"
+              width="740"
+              height="416"
               alt="facebook-ads"
               loading="lazy"
             />
@@ -204,8 +247,8 @@
           >
             <img
               src="./assets/images/call-and-sms.webp"
-              width="740px"
-              height="auto"
+              width="740"
+              height="416"
               alt="call-and-sms"
               loading="lazy"
             />
@@ -305,8 +348,9 @@
           <div class="max-w-[540px] w-full">
             <img
               src="./assets/images/ai-img-1.webp"
-              width="540px"
-              alt=""
+              width="540"
+              height="304"
+              alt="about-img"
               loading="lazy"
             />
           </div>
@@ -317,8 +361,9 @@
           <div class="max-w-[540px] w-full order-2 lg:order-1">
             <img
               src="./assets/images/ai-img-2.webp"
-              width="540px"
-              alt=""
+              width="540"
+              height="304"
+              alt="about-img"
               loading="lazy"
             />
           </div>
@@ -383,8 +428,9 @@
           <div class="max-w-[540px] w-full">
             <img
               src="./assets/images/ai-img-3.webp"
-              width="540px"
-              alt=""
+              width="540"
+              height="304"
+              alt="about-img"
               loading="lazy"
             />
           </div>
@@ -604,7 +650,8 @@
             <div id="tab1" class="tab-content active">
               <img
                 class="w-full"
-                width="100%"
+                width="1160"
+                height="652.5"
                 src="./assets/images/states.webp"
                 alt="states"
                 loading="lazy"
@@ -755,7 +802,8 @@
           class="xl:max-w-[647px] max-w-[540px] w-full object-cover"
           src="./assets/images/convert-cus.webp"
           alt=""
-          width="647px"
+          width="647"
+          height="364.69"
           loading="lazy"
         />
       </div>
@@ -915,7 +963,9 @@
     </footer>
     <!-- footer ends here -->
 
-    <!-- js file link -->
-    <script src="./js/script.js" defer></script>
+    <!-- css and js file link -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/tabs.js" defer></script>
+    <script src="./js/faq.js" defer></script>
   </body>
 </html>

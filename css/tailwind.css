@@ -2,42 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Regular */
-@font-face {
-  font-family: "SF Pro Text";
-  src: url("../assets/fonts/SF-Pro-Text-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Medium */
-@font-face {
-  font-family: "SF Pro Text";
-  src: url("../assets/fonts/SF-Pro-Text-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Semibold */
-@font-face {
-  font-family: "SF Pro Text";
-  src: url("../assets/fonts/SF-Pro-Text-Semibold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Bold */
-@font-face {
-  font-family: "SF Pro Text";
-  src: url("../assets/fonts/SF-Pro-Text-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
 body,
 * {
   font-family: "SF Pro Text", sans-serif !important;
